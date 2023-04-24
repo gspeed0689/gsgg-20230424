@@ -2,10 +2,8 @@ def power(x, y):
     """Power function
 
     Args:
-        x (int): integer
-        y (int): integer
+        x (num): numeric object
+        y (num): numeric object
     """
-    v = x
-    for i in range(y):
-        v = v * x
+    v = x ** y
     return(v)
